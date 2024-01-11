@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/salnik/static/css/main.e192c040.css",
-    "main.js": "/salnik/static/js/main.80714024.js",
+    "main.js": "/salnik/static/js/main.bac74682.js",
     "index.html": "/salnik/index.html",
     "main.e192c040.css.map": "/salnik/static/css/main.e192c040.css.map",
-    "main.80714024.js.map": "/salnik/static/js/main.80714024.js.map"
+    "main.bac74682.js.map": "/salnik/static/js/main.bac74682.js.map"
   },
   "entrypoints": [
     "static/css/main.e192c040.css",
-    "static/js/main.80714024.js"
+    "static/js/main.bac74682.js"
   ]
 }
