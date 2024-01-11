@@ -1,0 +1,358 @@
+.App {
+
+	max-width: 1440px;
+	margin: 0 auto;
+
+	padding-top: 10rem;
+}
+
+section {
+	margin-bottom: 7rem;
+}
+
+section:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+
+.sectionEl {
+	display: flex;
+	justify-content: space-around;
+	min-height: 500px;
+	align-items: center;
+
+
+
+}
+
+.sectionEl>div {
+	flex-basis: 40%;
+}
+
+.sectionImg {
+	position: relative;
+
+	overflow: hidden;
+	height: 50rem;
+}
+
+.sectionImg img {
+	width: 50rem;
+	object-fit: cover;
+	margin-top: -10rem;
+}
+
+
+section:nth-child(3) .sectionImg img {
+	margin: 0;
+}
+
+.sectionEl a {
+	text-decoration: none;
+}
+
+
+
+.htTitle {
+	font-weight: 700;
+	width: 85%;
+	color: #0F0F0F;
+	font-size: 5rem;
+}
+
+.htDesc {
+	width: 95%;
+	color: #464646;
+	font-size: 2rem;
+	line-height: 28px;
+	padding: 2rem 0;
+}
+
+.htBut {
+	padding-top: 20px;
+	display: flex;
+	gap: 2.5rem;
+}
+
+.responseBut {
+	display: flex;
+	justify-content: center;
+}
+
+.responseBut .htHelp img {
+	height: 5rem;
+}
+
+.responseBut .htBut {
+	padding: 0;
+	margin-bottom: 10rem;
+}
+
+.responseBut .htHelp {
+	background-color: #017CFF;
+	color: white;
+
+}
+
+.responseBut a {
+	text-decoration: none;
+}
+
+.htBut>div {
+	display: flex;
+	align-items: center;
+	padding: 10px 15px;
+}
+
+.htPrice {
+
+	font-weight: 700;
+	line-height: 38px;
+	letter-spacing: 0.5px;
+
+
+}
+
+.htHelp {
+	cursor: pointer;
+
+	border-radius: 15px;
+
+	font-size: 3rem;
+	color: #0F0F0F;
+	background-color: #E48D8B;
+	font-weight: 700;
+
+	transition: 0.3s;
+}
+
+.htHelp:hover {
+	scale: 1.1;
+}
+
+.htHelp img {
+	height: 6rem;
+	padding-right: 2rem;
+}
+
+
+.fiveLett {
+	height: 42rem;
+	background-color: #017CFF;
+	color: white;
+	text-align: center;
+
+	position: relative;
+	overflow: hidden;
+}
+
+.flTitle {
+	font-size: 4rem;
+	font-weight: 700;
+	width: 40%;
+
+	margin: 0 auto;
+
+	padding-top: 5rem;
+	padding-bottom: 4rem;
+}
+
+.flFlex {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.flLetter {
+	font-size: 8rem;
+	font-weight: 700;
+	line-height: 64px;
+
+	padding: 3rem;
+}
+
+.flDesc {
+	font-size: 2rem;
+}
+
+.block {
+	position: absolute;
+	width: 59px;
+	height: 59px;
+}
+
+.flBlockPink {
+	background-color: #E48D8B;
+	top: 0;
+	left: -10px;
+
+}
+
+.flBlockBlue {
+	background-color: #87CDFF;
+	bottom: -30px;
+	right: 23%;
+}
+
+.imgBlockBlue {
+	background-color: #0485e0;
+	left: -15px;
+	top: 43%;
+}
+
+.imgBlockPink {
+	background-color: #E48D8B;
+	top: -10px;
+	left: 10%;
+}
+
+.imgBlockSky {
+	background-color: #87CDFF;
+	bottom: 0;
+	right: 23%;
+}
+
+.dsTitle {
+	text-align: center;
+	color: #0F0F0F;
+
+	font-size: 4rem;
+	font-weight: 700;
+	line-height: 46px;
+}
+
+.dsCont {
+	font-size: 2rem;
+	font-weight: 400;
+
+	width: 50%;
+	margin: 0 auto;
+	padding: 4rem;
+}
+
+.dsCont a {
+	color: #464646;
+	display: flex;
+	justify-content: space-between;
+	padding: 3rem;
+
+	transition: 0.3s;
+
+	cursor: pointer;
+
+	text-decoration: none;
+}
+
+.dsTampleActive {
+	scale: 1.1;
+	background-color: rgb(210, 255, 255);
+}
+
+.dsTample:hover {
+	scale: 1.1;
+}
+
+.dsDesc {
+	font-size: 2.5rem;
+	transition: 0.3s;
+	padding: 2rem 0;
+}
+
+.supFlex {
+	/* padding-top: 2rem; */
+	display: flex;
+	justify-content: center;
+	gap: 10%;
+}
+
+.supFlex>div {
+	flex-basis: 30%;
+}
+
+.supTitle {
+	font-size: 3rem;
+	line-height: 33px;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+.supDesc {
+	font-size: 2rem;
+	font-weight: 400;
+	line-height: 27px;
+}
+
+.supImg {
+	text-align: center;
+	padding-right: 2rem;
+}
+
+.supImg img {
+	height: 20rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	html {
+		font-size: 8px;
+	}
+
+	.flTitle {
+		width: 55%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	html {
+		font-size: 7px;
+	}
+	.dsCont {
+		width: 85%;
+	}
+
+	.flTitle {
+
+		width: 90%;
+		padding-bottom: 0;
+	}
+
+	.sectionEl {
+		padding-bottom: 7rem;
+		text-align: center;
+		width: 70%;
+		margin: 0 auto;
+
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	section:nth-child(even) {
+		flex-direction: column;
+	}
+
+	.flBlockPink {
+		top: -25px;
+		left: -30px;
+	}
+
+	.htBut {
+		padding-bottom: 4rem;
+		justify-content: center;
+	}
+
+	.htTitle {
+		margin: 0 auto;
+	}
+
+	.App {
+		padding-top: 5rem;
+	}
+
+	.supFlex {
+		flex-direction: column;
+		padding: 3rem;
+	}
+
+	.flLetter {
+		font-size: 5rem;
+		padding: 1rem;
+	}
+}
