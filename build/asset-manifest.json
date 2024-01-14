@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/salnik/static/css/main.c8f7fc81.css",
+    "main.js": "/salnik/static/js/main.bc663787.js",
+    "index.html": "/salnik/index.html",
+    "main.c8f7fc81.css.map": "/salnik/static/css/main.c8f7fc81.css.map",
+    "main.bc663787.js.map": "/salnik/static/js/main.bc663787.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8f7fc81.css",
+    "static/js/main.bc663787.js"
+  ]
+}
